@@ -2,7 +2,7 @@ from configparser import ConfigParser
 import argparse
 
 cfg = ConfigParser()
-cfg.read("config.sample.ini")
+cfg.read("config.ini")
 
 parser = argparse.ArgumentParser(description="generate config.ini")
 
